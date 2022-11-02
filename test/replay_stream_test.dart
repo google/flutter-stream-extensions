@@ -14,8 +14,8 @@
 
 import 'dart:async';
 
-import 'package:streams/replay_stream.dart';
-import 'package:streams/stream_event.dart';
+import 'package:flutter_stream_extensions/replay_stream.dart';
+import 'package:flutter_stream_extensions/stream_event.dart';
 import 'package:test/test.dart';
 
 void main() {

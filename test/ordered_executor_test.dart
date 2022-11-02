@@ -13,7 +13,7 @@
 // limitations under the License.
 
 import 'package:mockito/mockito.dart';
-import 'package:streams/ordered_executor.dart';
+import 'package:flutter_stream_extensions/ordered_executor.dart';
 import 'package:test/test.dart';
 
 void main() {

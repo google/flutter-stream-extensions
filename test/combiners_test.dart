@@ -14,7 +14,7 @@
 
 import 'dart:async';
 
-import 'package:streams/combiners.dart';
+import 'package:flutter_stream_extensions/combiners.dart';
 import 'package:test/test.dart';
 import 'package:tuple/tuple.dart';
 

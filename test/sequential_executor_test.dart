@@ -14,7 +14,7 @@
 
 import 'dart:async';
 
-import 'package:streams/sequential_executor.dart';
+import 'package:flutter_stream_extensions/sequential_executor.dart';
 import 'package:quiver/check.dart';
 import 'package:test/test.dart';
 

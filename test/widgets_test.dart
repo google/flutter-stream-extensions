@@ -17,7 +17,7 @@ import 'dart:async';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
-import 'package:streams/widgets.dart';
+import 'package:flutter_stream_extensions/widgets.dart';
 
 void main() {
   group(DistinctStreamBuilder, () {

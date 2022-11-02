@@ -15,8 +15,8 @@
 import 'dart:async';
 
 import 'package:auto_disposable/auto_disposable.dart';
-import 'package:streams/flow.dart';
-import 'package:streams/stream_event.dart';
+import 'package:flutter_stream_extensions/flow.dart';
+import 'package:flutter_stream_extensions/stream_event.dart';
 import 'package:test/test.dart';
 
 void main() {
