@@ -12,10 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 import 'package:flutter_stream_extensions/ordered_executor.dart';
 import 'package:test/test.dart';
 
+import 'ordered_executor_test.mocks.dart';
+
+@GenerateNiceMocks([MockSpec<Callback>()])
 void main() {
   group(OrderedExecutor, () {
     late OrderedExecutor<int, String> executor;
@@ -147,10 +151,4 @@ void main() {
 
 abstract class Callback {
   Future<String> call(int value);
-}
-
-class MockCallback extends Mock implements Callback {
-  @override
-  Future<String> call(int? value) =>
-      super.noSuchMethod(Invocation.method(#start, [value]));
 }

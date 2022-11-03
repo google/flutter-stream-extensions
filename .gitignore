@@ -1,2 +1,7 @@
 .dart_tool
 pubspec.lock
+build/*
+BUILD
+METADATA
+OWNERS
+copy.bara.sky
