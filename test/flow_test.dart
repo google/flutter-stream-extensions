@@ -520,7 +520,7 @@ void main() {
           void triggerStreamUpdates() {
             tester.inputStreamController.add(20);
             tester.inputStreamController.add(25);
-            tester.inputStreamController.addError('Out of range');
+            tester.inputStreamController.addError('Out of range', StackTrace.empty);
           }
 
           test('emits input stream events to subscriber', () async {
@@ -594,7 +594,7 @@ void main() {
             tester.inputStreamController.add(21);
             tester.inputStreamController.add(22);
             tester.inputStreamController.add(23);
-            tester.inputStreamController.addError('Out of range');
+            tester.inputStreamController.addError('Out of range', StackTrace.empty);
           }
 
           test('emits transformed input stream events to subscriber', () async {
