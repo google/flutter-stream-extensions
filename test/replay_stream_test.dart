@@ -2195,7 +2195,7 @@ class DelegatingMatcher extends CustomMatcher {
 
 /// A [StreamConsumer] that does not do anything. It does, however, provide a
 /// getter to the added [Stream] for test verification.
-class NoopStreamConsumer extends StreamConsumer<int> {
+class NoopStreamConsumer implements StreamConsumer<int> {
   Stream<int>? _stream;
 
   Stream<int>? get stream => _stream;
